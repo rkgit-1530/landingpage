@@ -1,0 +1,228 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 30px;
+}
+ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    margin-top: 4px;
+    
+}
+.nav-links{
+    padding: 10;
+    height: auto;
+}
+li{
+    list-style: none;
+    margin: 0 10px;
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    font-size: 16px;
+}
+.end{
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+}
+.btn-1{
+    padding: 8px;
+    
+}
+.btn-2{
+    padding:8px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+.hero{
+    position: relative;
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 5px;
+    padding: 20px;
+    gap: 20px; 
+    height: 80vh;
+    background: url(Images/Hero.jpg) no-repeat center center/cover;
+}
+.hero h1{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: start;
+}
+.hero p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: start;
+}
+.search-bar{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: space-between;
+}
+.search-bar input{
+    width: 500px;
+    padding:10px;
+    border: 0;
+    border-radius: 5px;
+}
+.search-bar a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(230, 103, 18);
+    color: white;
+    
+    margin-top: 5px;
+}
+.hero-btn{
+    padding: 20px 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.props{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.props-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 20px;
+    gap: 10px;
+}
+.props-header h2{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: start;
+}
+.props-header p{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: start;
+    font-weight: semi-bold;
+}
+.props-btn{
+    height: auto;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+.props-btn a{
+    margin-top: 25px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(231, 116, 40);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.props-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.props-cards img{
+    border-radius: 10px;
+}
+.props-cards h3 {
+    justify-self: start;
+}
+.props-cards p{
+    justify-self: start;
+}
+.btn-grp{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#btn-1{
+    background-color: #fff !important;
+    border: 2px soid black !important;
+}
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin: 30px 0px;
+    height: 500px;
+    text-align: center;
+    background-color: rgb(235, 206, 152);
+    align-self: center;
+    padding: 40px;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: start;
+    gap: 20px;
+}
+.banner-heading{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: start;
+}
+.banner-heading{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.sh-1{
+    display: flex;  
+    flex-direction: column;
+    gap: 5px;
+    text-align: start;  
+    padding: 20px;
+}
+.sh-1 h3{
+    font-size: 18px;
+}
+.sh-1 p{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+.one{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.banner-right{
+    display: flex;
+}
+.banner-right img{
+    border-radius: 20px;
+}
+.tow{
+    margin-top: 15px;
+}
